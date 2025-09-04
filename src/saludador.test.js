@@ -17,3 +17,11 @@ test('Iteración 4: saluda de acuerdo al genero', () => {
     expect(saludador("María", 9, "F")).toBe("Buenos días María");
     expect(saludador("Pedro", 15, "M")).toBe("Buenas tardes Pedro");
 });
+//iteracción 5:Saludar por edad 
+
+test('Iteración 5: saluda de acuerdo a la edad', () => {
+    expect(saludador("María", 9, "F", 35)).toBe("Buenos días Sra. María");
+    expect(saludador("Pedro", 15, "M", 40)).toBe("Buenas tardes Sr. Pedro");
+    expect(saludador("Ana", 10, "F", 25)).toBe("Buenos días Ana");
+});
+

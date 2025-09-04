@@ -3,7 +3,8 @@
 //iteracion 2: saluda con "Hola {nombre}" si el nombre es valido
 //iteracion 3:Saludar de acuerdo a la hora del dia utilizando let fechaActual = new Date();
 //let horaActual = fechaActual.getHours();
-export default function saludador(nombre, hora) {
+//iteracion 4: Saludar por genero
+export default function saludador(nombre, hora, genero) {
     if (!nombre && !hora) {
         return "Hola";
     } else if (nombre && !hora) {

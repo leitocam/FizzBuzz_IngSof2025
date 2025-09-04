@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "faa7415f68587a80f623c9f72590e202ac482aec",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T00:58:11.000Z",
       "message": "Test 4 Integración de generos",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/faa7415f68587a80f623c9f72590e202ac482aec"
     },
     "stats": {
       "total": 7,
@@ -112,5 +112,24 @@
     "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T01:02:15.000Z",
+      "message": "Test 5 Saludo con Edades",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 90,
+    "test_count": 6,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
