@@ -38,12 +38,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "f5f4b201861782fb74d9bc0eb944ec6cf8ee579d",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T00:49:30.000Z",
       "message": "Modificación funcion saludador paso 2",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/f5f4b201861782fb74d9bc0eb944ec6cf8ee579d"
     },
     "stats": {
       "total": 12,
@@ -55,5 +55,24 @@
     "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T00:52:22.000Z",
+      "message": "Test 3 Interación saludo con hora",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

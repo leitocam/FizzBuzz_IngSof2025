@@ -7,3 +7,8 @@ test('Iteración 2: saluda con "Hola {nombre}"', () => {
     expect(saludador("María")).toBe("Hola María");
     expect(saludador("Pedro")).toBe("Hola Pedro");
 });
+//iteracion 3:Saludar de acuerdo a la hora del dia
+test('Iteración 3: saluda de acuerdo a la hora', () => {
+    expect(saludador("María", 9)).toBe("Buenos días María");
+    expect(saludador("Pedro", 15)).toBe("Buenas tardes Pedro");
+});
