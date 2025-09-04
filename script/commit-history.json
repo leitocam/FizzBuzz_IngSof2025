@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e3f042b32363040936142759e4821d52e51777d5",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:46:54.000Z",
       "message": "Ciclo 4:  múltiplos de 5 y 3 ->Fiz Buzz",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/e3f042b32363040936142759e4821d52e51777d5"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:50:19.000Z",
+      "message": "Ciclo5: Preuaba Generar cadena FIzzBuzz",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
       "date": "2025-09-04"
     },
     "coverage": 100,
