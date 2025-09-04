@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a4088eec9c0ea628a1dae61304bf245a6b8fa3a7",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:13:32.000Z",
       "message": "Test multipos 3",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/a4088eec9c0ea628a1dae61304bf245a6b8fa3a7"
     },
     "stats": {
       "total": 7,
@@ -264,5 +264,24 @@
     "test_count": 3,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:15:23.000Z",
+      "message": "Ciclo 2:  múltiplos de 3 -> Fizz",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
