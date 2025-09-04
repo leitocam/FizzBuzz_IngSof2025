@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c5962c1c99b934ce5b452b1aaf5d4e1e59b02978",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:01:28.000Z",
       "message": "Inicio",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/c5962c1c99b934ce5b452b1aaf5d4e1e59b02978"
     },
     "stats": {
       "total": 0,
@@ -224,6 +224,25 @@
     },
     "coverage": 89.29,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:10:44.000Z",
+      "message": "Ciclo 1: Implementa caso base para n=1",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 8,
+      "deletions": 34,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
