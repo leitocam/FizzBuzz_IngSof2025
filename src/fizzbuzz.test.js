@@ -14,4 +14,8 @@ test("Devuelve 'Buzz' para múltiplos de 5", () => {
     expect(fizzbuzz(5)).toBe("Buzz");
     expect(fizzbuzz(10)).toBe("Buzz");
   });
-    
+  //Test multiplos de 3 y 5
+test("Devuelve 'FizzBuzz' para múltiplos de 3 y 5", () => {
+    expect(fizzbuzz(15)).toBe("FizzBuzz");
+    expect(fizzbuzz(30)).toBe("FizzBuzz");
+});
