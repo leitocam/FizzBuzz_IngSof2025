@@ -4,15 +4,30 @@
 //iteracion 3:Saludar de acuerdo a la hora del dia utilizando let fechaActual = new Date();
 //let horaActual = fechaActual.getHours();
 //iteracion 4: Saludar por genero
-export default function saludador(nombre, hora, genero) {
-    if (!nombre && !hora) {
-        return "Hola";
-    } else if (nombre && !hora) {
-        return `Hola ${nombre}`;
-    } else if (nombre && hora < 12) {
-        return `Buenos días ${nombre}`;
-    } else if (nombre && hora >= 12) {
-        return `Buenas tardes ${nombre}`;
-    }
+//iteracción 5:Saludar por edad Si tiene edad > 30 saluda con Sr. o Sra.
+export default function saludador(nombre, hora, genero, edad) {
+  if (!nombre) {
     return "Hola";
+    } else {
+    let saludo = "";
+    if (hora !== undefined) {
+        if (hora < 12) {
+            saludo = "Buenos días";
+        } else if (hora < 18) {
+            saludo = "Buenas tardes";
+        } else {
+            saludo = "Buenas noches";
+        }
+    } else {
+        saludo = "Hola";
+    }
+    if (edad !== undefined && edad > 30) {
+        if (genero === "F") {
+            saludo += " Sra.";
+        } else if (genero === "M") {
+            saludo += " Sr.";
+        }
+    }
+    return `${saludo} ${nombre}`;
+    }   
 }
