@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5c9661b417d1bd7c4411ba07e18a828e7cc20973",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T00:47:05.000Z",
       "message": "test saludador 2",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/5c9661b417d1bd7c4411ba07e18a828e7cc20973"
     },
     "stats": {
       "total": 5,
@@ -36,5 +36,24 @@
     "test_count": 3,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T00:49:30.000Z",
+      "message": "Modificación funcion saludador paso 2",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 8,
+      "deletions": 4,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
