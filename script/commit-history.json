@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94363704132e28cfeeec4ca992cc52fa6fc15e71",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:34:34.000Z",
       "message": "Ciclo 4:  múltiplos de 5 y 3 ->Fiz Buzz",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/94363704132e28cfeeec4ca992cc52fa6fc15e71"
     },
     "stats": {
       "total": 6,
@@ -321,5 +321,24 @@
     "test_count": 5,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:43:48.000Z",
+      "message": "Ciclo 4:  múltiplos de 5 y 3 ->Fiz Buzz",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
