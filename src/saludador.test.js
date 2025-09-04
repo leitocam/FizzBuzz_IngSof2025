@@ -25,3 +25,10 @@ test('Iteración 5: saluda de acuerdo a la edad', () => {
     expect(saludador("Ana", 10, "F", 25)).toBe("Buenos días Ana");
 });
 
+//iteración 6: Saludar en espanol o en inglés
+test('Iteración 6: saluda en español o en inglés', () => {
+    expect(saludador("María", 9, "F", 35, "ES")).toBe("Buenos días Sra. María");
+    expect(saludador("John", 15, "M", 40, "EN")).toBe("Good afternoon Mr. John");
+    expect(saludador("Ana", 10, "F", 25, "ES")).toBe("Buenos días Ana");
+    expect(saludador("Alice", 20, "F", 28, "EN")).toBe("Good evening Alice");
+});

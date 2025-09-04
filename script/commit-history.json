@@ -133,12 +133,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "88b3531513b94939ccf0a00e8edd15b23fa989bc",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T01:05:38.000Z",
       "message": "Función integra saludo por genero",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/88b3531513b94939ccf0a00e8edd15b23fa989bc"
     },
     "stats": {
       "total": 35,
@@ -150,5 +150,24 @@
     "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T01:08:59.000Z",
+      "message": "Test 6 saludo por idioma",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 94.12,
+    "test_count": 7,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
