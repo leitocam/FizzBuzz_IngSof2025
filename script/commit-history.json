@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2078827e20c1e15685fd56033fe0b0d946d8382",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:55:37.000Z",
       "message": "Implementación en Html y presenter",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/b2078827e20c1e15685fd56033fe0b0d946d8382"
     },
     "stats": {
       "total": 37,
       "additions": 7,
       "deletions": 30,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T04:08:03.000Z",
+      "message": "refactorización",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 11,
+      "deletions": 34,
       "date": "2025-09-04"
     },
     "coverage": 100,
