@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "90836e66b7f5f606c7a0ecc2fea27d10111223bc",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T00:43:50.000Z",
       "message": "Primer Comit interación saludador",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/90836e66b7f5f606c7a0ecc2fea27d10111223bc"
     },
     "stats": {
       "total": 11,
@@ -17,5 +17,24 @@
     "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T00:47:05.000Z",
+      "message": "test saludador 2",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
