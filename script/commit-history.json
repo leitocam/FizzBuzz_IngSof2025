@@ -361,17 +361,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9feada1b13dae9e5a2e38f2a4824e5eb43d6dec",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T03:50:19.000Z",
       "message": "Ciclo5: Preuaba Generar cadena FIzzBuzz",
-      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/a9feada1b13dae9e5a2e38f2a4824e5eb43d6dec"
     },
     "stats": {
       "total": 13,
       "additions": 13,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:55:37.000Z",
+      "message": "Implementación en Html y presenter",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 7,
+      "deletions": 30,
       "date": "2025-09-04"
     },
     "coverage": 100,
