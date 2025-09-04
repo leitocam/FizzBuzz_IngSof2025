@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "19b59db70f55fec70416ec18d343c71e69876b6b",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T01:16:26.000Z",
       "message": "integración saludador en html y presenter js",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/19b59db70f55fec70416ec18d343c71e69876b6b"
     },
     "stats": {
       "total": 47,
       "additions": 46,
       "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 89.29,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T03:01:28.000Z",
+      "message": "Inicio",
+      "url": "https://github.com/leitocam/FizzBuzz_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2025-09-04"
     },
     "coverage": 89.29,
