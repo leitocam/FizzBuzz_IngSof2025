@@ -5,29 +5,48 @@
 //let horaActual = fechaActual.getHours();
 //iteracion 4: Saludar por genero
 //iteracción 5:Saludar por edad Si tiene edad > 30 saluda con Sr. o Sra.
-export default function saludador(nombre, hora, genero, edad) {
+//iteración 6: Saludar en espanol o en inglés Si el idioma es "ES" saluda en español, si es "EN" saluda en inglés. Por defecto es español.
+export default function saludador(nombre, hora, genero, edad, idioma = "ES") {
   if (!nombre) {
     return "Hola";
-    } else {
+  } else {
     let saludo = "";
     if (hora !== undefined) {
+      if (idioma === "EN") {
         if (hora < 12) {
-            saludo = "Buenos días";
+          saludo = "Good morning";
         } else if (hora < 18) {
-            saludo = "Buenas tardes";
+          saludo = "Good afternoon";
         } else {
-            saludo = "Buenas noches";
+          saludo = "Good evening";
         }
+      } else {
+        if (hora < 12) {
+          saludo = "Buenos días";
+        } else if (hora < 18) {
+          saludo = "Buenas tardes";
+        } else {
+          saludo = "Buenas noches";
+        }
+      }
     } else {
-        saludo = "Hola";
+      saludo = "Hola";
     }
     if (edad !== undefined && edad > 30) {
+      if (idioma === "EN") {
         if (genero === "F") {
-            saludo += " Sra.";
+          saludo += " Ms.";
         } else if (genero === "M") {
-            saludo += " Sr.";
+          saludo += " Mr.";
         }
+      } else {
+        if (genero === "F") {
+          saludo += " Sra.";
+        } else if (genero === "M") {
+          saludo += " Sr.";
+        }
+      }
     }
     return `${saludo} ${nombre}`;
-    }   
+  }   
 }
