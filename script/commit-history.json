@@ -76,12 +76,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "05ede0d71697e263d7843bf7f6a70ca2a412d6eb",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T00:55:21.000Z",
       "message": "Funcion configurada con  saludo con hora",
-      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/05ede0d71697e263d7843bf7f6a70ca2a412d6eb"
     },
     "stats": {
       "total": 17,
@@ -91,6 +91,25 @@
     },
     "coverage": 90,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T00:58:11.000Z",
+      "message": "Test 4 Integración de generos",
+      "url": "https://github.com/leitocam/SaludadorTDD_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 90,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
