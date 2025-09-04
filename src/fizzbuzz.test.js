@@ -9,3 +9,9 @@ test("Devuelve 'Fizz' para múltiplos de 3", () => {
     expect(fizzbuzz(6)).toBe("Fizz");
   });
   
+//Test multiplos de 5
+test("Devuelve 'Buzz' para múltiplos de 5", () => {
+    expect(fizzbuzz(5)).toBe("Buzz");
+    expect(fizzbuzz(10)).toBe("Buzz");
+  });
+    
