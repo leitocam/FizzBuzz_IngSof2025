@@ -19,3 +19,9 @@ test("Devuelve 'FizzBuzz' para múltiplos de 3 y 5", () => {
     expect(fizzbuzz(15)).toBe("FizzBuzz");
     expect(fizzbuzz(30)).toBe("FizzBuzz");
 });
+//Generar secuencia de FizzBuzz
+test("Genera secuencia hasta N", () => {
+    const expected = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"];
+    expect(Array.from({length: 10}, (_,i) => fizzbuzz(i+1))).toEqual(expected);
+  });
+  
